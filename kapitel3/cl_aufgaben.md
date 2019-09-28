@@ -51,3 +51,25 @@ b) [[[Das]D [Buch]N]NP [[ist]V [grün]A]VP]S
 
 c) [[[Hans]EN]NP [[sieht]V [[das]D [Buch]N]NP [[auf]P [[dem]D [Tisch]N]NP]PP]VP]S
 
+# CL 4
+S
+
+[NP VP]S
+
+[[EN]NP VP]S
+
+[[[Hans]EN]NP VP]S
+
+[[[Hans]EN]NP [V NP NP]VP]S
+
+[[[Hans]EN]NP [[gibt]V NP NP]VP]S
+
+[[[Hans]EN]NP [[gibt]V [EN]NP NP]VP]S
+
+[[[Hans]EN]NP [[gibt]V [[Peter]EN]NP NP]VP]S
+
+[[[Hans]EN]NP [[gibt]V [[Peter]EN]NP [D N]NP]VP]S
+
+[[[Hans]EN]NP [[gibt]V [[Peter]EN]NP [[das]D N]NP]VP]S
+
+[[[Hans]EN]NP [[gibt]V [[Peter]EN]NP [[das]D [Buch]N]NP]VP]S
