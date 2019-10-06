@@ -33,3 +33,27 @@
 | 27.  | <6, (N)>                       | <2, (D A N)>, <2, (EN)>, <2, (D A N PP)>, <2, (EN PP)>, <5, (D A N)>, <5, (EN)>   |
 | 28.  | <7, ()>                        | <2, (D A N)>, <2, (EN)>, <2, (D A N PP)>, <2, (EN PP)>, <5, (D A N)>, <5, (EN)>   |
 | 29.  | ERFOLG                         |                                                                                   |
+
+
+# CL 2
+
+## <7, ()>
+<7, [[[Hans]EN]NP [[legt]V [[das]D [Buch]N]NP [[auf]P [[den]D [Tisch]N]NP]PP]VP]S>
+
+## <2, (D A N)>
+<2, [[[Hans]EN]NP [[legt]V [$D A N]NP]VP]S>
+
+## <2, (EN)>
+<2, [[[Hans]EN]NP [[legt]V [$EN]NP]VP]S>
+
+## <2, (D A N PP)>
+<2, [[[Hans]EN]NP [[legt]V [$D A N]NP PP]VP]S>
+
+## <2, (EN PP)>
+<2, [[[Hans]EN]NP [[legt]V [$EN]NP PP]VP]S>
+
+## <5, (D A N)>
+<5, [[[Hans]EN]NP [[legt]V [[das]D [Buch]N]]NP [[auf]P [$D A N]NP]PP]VP]S>
+
+## <5, (EN)>
+<5, [[[Hans]EN]NP [[legt]V [[das]D [Buch]N]]NP [[auf]P [$EN]NP]PP]VP]S>
