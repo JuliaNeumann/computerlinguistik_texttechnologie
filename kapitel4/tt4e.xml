@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<!DOCTYPE Woerterbucheintrag [
+<!ELEMENT Woerterbucheintrag (Lemma, Ursprung?, Grammatik?, Definition*)>
+<!ELEMENT Lemma (Silbe+)>
+<!ELEMENT Silbe ((Buchstabe-unbetont*|Buchstabe-betont?)+)>
+<!ELEMENT Buchstabe-unbetont (#PCDATA)>
+<!ELEMENT Buchstabe-betont (#PCDATA)>
+<!ELEMENT Ursprung (#PCDATA)>
+<!ELEMENT Grammatik (Geschlecht, (Deklinationstyp|Deklinationsinfo+))>
+<!ELEMENT Geschlecht (#PCDATA)>
+<!ELEMENT Deklinationstyp (#PCDATA)>
+<!ELEMENT Deklinationsinfo (Kategorie, Endung)>
+<!ELEMENT Kategorie (#PCDATA)>
+<!ELEMENT Endung (#PCDATA)>
+<!ELEMENT Definition (#PCDATA)>
+]>
+<Woerterbucheintrag>
+  <Lemma>
+    <Silbe>
+      <Buchstabe-unbetont>R</Buchstabe-unbetont>
+      <Buchstabe-unbetont>e</Buchstabe-unbetont>
+    </Silbe>
+    <Silbe>
+      <Buchstabe-unbetont>f</Buchstabe-unbetont>
+      <Buchstabe-unbetont>e</Buchstabe-unbetont>
+      <Buchstabe-unbetont>k</Buchstabe-unbetont>
+    </Silbe>
+    <Silbe>
+      <Buchstabe-unbetont>t</Buchstabe-unbetont>
+      <Buchstabe-betont>o</Buchstabe-betont>
+    </Silbe>
+    <Silbe>
+      <Buchstabe-unbetont>r</Buchstabe-unbetont>
+      <Buchstabe-unbetont>i</Buchstabe-unbetont>
+    </Silbe>
+    <Silbe>
+      <Buchstabe-unbetont>u</Buchstabe-unbetont>
+      <Buchstabe-unbetont>m</Buchstabe-unbetont>
+    </Silbe>
+  </Lemma>
+  <Ursprung>lat.</Ursprung>
+  <Grammatik>
+      <Geschlecht>m</Geschlecht>
+      <Deklinationsinfo>
+        <Kategorie>Gen</Kategorie>
+        <Endung>s</Endung>
+      </Deklinationsinfo>
+      <Deklinationsinfo>
+        <Kategorie>Mz</Kategorie>
+        <Endung>ri|en</Endung>
+      </Deklinationsinfo>
+  </Grammatik>
+  <Definition>Speisesaal im Kloster</Definition>
+</Woerterbucheintrag>

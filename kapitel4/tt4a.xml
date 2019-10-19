@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!DOCTYPE Woerterbucheintrag [
+<!ELEMENT Woerterbucheintrag (Lemma, Ursprung?, Grammatik?, Definition*)>
+<!ELEMENT Lemma (Silbe+)>
+<!ELEMENT Silbe ((Buchstabe-unbetont*|Buchstabe-betont?)+)>
+<!ELEMENT Buchstabe-unbetont (#PCDATA)>
+<!ELEMENT Buchstabe-betont (#PCDATA)>
+<!ELEMENT Ursprung (#PCDATA)>
+<!ELEMENT Grammatik (Geschlecht, (Deklinationstyp|Deklinationsinfo+))>
+<!ELEMENT Geschlecht (#PCDATA)>
+<!ELEMENT Deklinationstyp (#PCDATA)>
+<!ELEMENT Deklinationsinfo (Kategorie, Endung)>
+<!ELEMENT Kategorie (#PCDATA)>
+<!ELEMENT Endung (#PCDATA)>
+<!ELEMENT Definition (#PCDATA)>
+]>
+<Woerterbucheintrag>
+  <Lemma>
+    <Silbe>
+      <Buchstabe-unbetont>A</Buchstabe-unbetont>
+      <Buchstabe-betont>r</Buchstabe-betont>
+    </Silbe>
+    <Silbe>
+      <Buchstabe-unbetont>k</Buchstabe-unbetont>
+      <Buchstabe-betont>a</Buchstabe-betont>
+    </Silbe>
+    <Silbe>
+      <Buchstabe-unbetont>d</Buchstabe-unbetont>
+      <Buchstabe-unbetont>i</Buchstabe-unbetont>
+    </Silbe>
+    <Silbe>
+      <Buchstabe-unbetont>e</Buchstabe-unbetont>
+      <Buchstabe-unbetont>n</Buchstabe-unbetont>
+    </Silbe>
+  </Lemma>
+  <Definition>griechische Landschaft</Definition>
+</Woerterbucheintrag>

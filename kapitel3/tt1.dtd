@@ -1,10 +1,13 @@
-<!ELEMENT Wörterbucheintrag (Lemma, Ursprung?, Grammatik?, Definition*)>
+<!ELEMENT Woerterbucheintrag (Lemma, Ursprung?, Grammatik?, Definition*)>
 <!ELEMENT Lemma (Silbe+)>
 <!ELEMENT Silbe ((Buchstabe-unbetont*|Buchstabe-betont?)+)>
 <!ELEMENT Buchstabe-unbetont (#PCDATA)>
 <!ELEMENT Buchstabe-betont (#PCDATA)>
 <!ELEMENT Ursprung (#PCDATA)>
-<!ELEMENT Grammatik (Geschlecht, (Deklinationstyp|Deklinationsinfo))>
+<!ELEMENT Grammatik (Geschlecht, (Deklinationstyp|Deklinationsinfo+))>
 <!ELEMENT Geschlecht (#PCDATA)>
 <!ELEMENT Deklinationstyp (#PCDATA)>
-<!ELEMENT Deklinationsinfo (#PCDATA)>
+<!ELEMENT Deklinationsinfo (Kategorie, Endung)>
+<!ELEMENT Kategorie (#PCDATA)>
+<!ELEMENT Endung (#PCDATA)>
+<!ELEMENT Definition (#PCDATA)>

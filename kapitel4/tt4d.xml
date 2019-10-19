@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!DOCTYPE Woerterbucheintrag [
+<!ELEMENT Woerterbucheintrag (Lemma, Ursprung?, Grammatik?, Definition*)>
+<!ELEMENT Lemma (Silbe+)>
+<!ELEMENT Silbe ((Buchstabe-unbetont*|Buchstabe-betont?)+)>
+<!ELEMENT Buchstabe-unbetont (#PCDATA)>
+<!ELEMENT Buchstabe-betont (#PCDATA)>
+<!ELEMENT Ursprung (#PCDATA)>
+<!ELEMENT Grammatik (Geschlecht, (Deklinationstyp|Deklinationsinfo+))>
+<!ELEMENT Geschlecht (#PCDATA)>
+<!ELEMENT Deklinationstyp (#PCDATA)>
+<!ELEMENT Deklinationsinfo (Kategorie, Endung)>
+<!ELEMENT Kategorie (#PCDATA)>
+<!ELEMENT Endung (#PCDATA)>
+<!ELEMENT Definition (#PCDATA)>
+]>
+<Woerterbucheintrag>
+  <Lemma>
+    <Silbe>
+      <Buchstabe-unbetont>K</Buchstabe-unbetont>
+      <Buchstabe-betont>a</Buchstabe-betont>
+      <Buchstabe-betont>u</Buchstabe-betont>
+      <Buchstabe-unbetont>f</Buchstabe-unbetont>
+    </Silbe>
+  </Lemma>
+  <Grammatik>
+      <Geschlecht>m</Geschlecht>
+      <Deklinationstyp>2</Deklinationstyp>
+  </Grammatik>
+  <Definition>etwas in Kauf nehmen: sich mit etwas abfinden</Definition>
+  <Definition>das In-Kauf-Nehmen</Definition>
+</Woerterbucheintrag>
