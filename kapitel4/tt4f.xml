@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<!DOCTYPE Woerterbucheintrag [
+<!ELEMENT Woerterbucheintrag (Lemma, Ursprung?, Grammatik?, Definition*)>
+<!ELEMENT Lemma (Silbe+)>
+<!ELEMENT Silbe ((Buchstabe-unbetont*|Buchstabe-betont?)+)>
+<!ELEMENT Buchstabe-unbetont (#PCDATA)>
+<!ELEMENT Buchstabe-betont (#PCDATA)>
+<!ELEMENT Ursprung (#PCDATA)>
+<!ELEMENT Grammatik (Geschlecht, (Deklinationstyp|Deklinationsinfo+))>
+<!ELEMENT Geschlecht (#PCDATA)>
+<!ELEMENT Deklinationstyp (#PCDATA)>
+<!ELEMENT Deklinationsinfo (Kategorie, Endung)>
+<!ELEMENT Kategorie (#PCDATA)>
+<!ELEMENT Endung (#PCDATA)>
+<!ELEMENT Definition (#PCDATA)>
+]>
+<Woerterbucheintrag>
+  <Lemma>
+    <Silbe>
+      <Buchstabe-unbetont>T</Buchstabe-unbetont>
+      <Buchstabe-betont>o</Buchstabe-betont>
+      <Buchstabe-unbetont>r</Buchstabe-unbetont>
+    </Silbe>
+    <Silbe>
+      <Buchstabe-unbetont>t</Buchstabe-unbetont>
+      <Buchstabe-unbetont>e</Buchstabe-unbetont>
+      <Buchstabe-unbetont>n</Buchstabe-unbetont>
+    </Silbe>
+    <Silbe>
+      <Buchstabe-unbetont>h</Buchstabe-unbetont>
+      <Buchstabe-betont>e</Buchstabe-betont>
+    </Silbe>
+    <Silbe>
+      <Buchstabe-unbetont>b</Buchstabe-unbetont>
+      <Buchstabe-unbetont>e</Buchstabe-unbetont>
+      <Buchstabe-unbetont>r</Buchstabe-unbetont>
+    </Silbe>
+  </Lemma>
+  <Grammatik>
+      <Geschlecht>m</Geschlecht>
+      <Deklinationstyp>5</Deklinationstyp>
+  </Grammatik>
+</Woerterbucheintrag>
