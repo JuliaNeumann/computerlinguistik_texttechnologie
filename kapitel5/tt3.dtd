@@ -1,0 +1,17 @@
+<!ELEMENT     Woerterbucheintrag          (Lemma, Ursprung?, Grammatik?, Definition*)>
+<!ELEMENT     Lemma                       (Silbe+)>
+<!ATTLIST     Lemma
+         Ursprung               CDATA                         #IMPLIED> 
+<!ELEMENT     Silbe                       ((Buchstabe-unbetont*|Buchstabe-betont?)+)>
+<!ELEMENT     Buchstabe-unbetont          (#PCDATA)>
+<!ELEMENT     Buchstabe-betont            (#PCDATA)>
+<!ELEMENT     Grammatik                   (Deklinationstyp|Deklinationsinfo+)>
+<!ATTLIST     Grammatik
+         Genus                  (w|s|m)                       #REQUIRED>
+<!ELEMENT     Deklinationstyp             EMPTY>
+<!ATTLIST     Deklinationstyp  
+         Nr                     NMTOKEN                       #REQUIRED>
+<!ELEMENT     Deklinationsinfo            (#PCDATA)>
+<!ATTLIST     Deklinationsinfo
+         Kategorie              (Nom|Akk|Gen|Dat|Ez|Mz)       #REQUIRED>
+<!ELEMENT     Definition                  (#PCDATA)>
