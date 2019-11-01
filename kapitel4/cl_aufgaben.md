@@ -88,29 +88,16 @@
 | 24.  | <6, 7, [KON(8) $N]NP>         |                                                |
 | 25.  | <6, 7, [KON(8) $A N]NP>       |                                                |
 
-[KON(2) KON(12)]S
-
--> [[KON(1)]NP KON(12)]S 
-
-
--> [[[Hans]EN]NP KON(12)]S 
-
--> [[[Hans]EN]NP [KON(3) KON(6) KON(11)]VP]S 
-
--> [[[Hans]EN]NP [[legt]V KON(6) KON(11)]VP]S 
-
--> [[[Hans]EN]NP [[legt]V [KON(4) KON(5)]NP KON(11)]VP]S 
-
--> [[[Hans]EN]NP [[legt]V [[das]D KON(5)]NP KON(11)]VP]S 
-
--> [[[Hans]EN]NP [[legt]V [[das]D [Buch]N]NP KON(11)]VP]S 
-
--> [[[Hans]EN]NP [[legt]V [[das]D [Buch]N]NP [KON(7) KON(10)]PP]VP]S 
-
--> [[[Hans]EN]NP [[legt]V [[das]D [Buch]N]NP [[auf]P KON(10)]PP]VP]S 
-
--> [[[Hans]EN]NP [[legt]V [[das]D [Buch]N]NP [[auf]P [KON(8) KON(9)]NP]PP]VP]S 
-
--> [[[Hans]EN]NP [[legt]V [[das]D [Buch]N]NP [[auf]P [[den]D KON(9)]NP]PP]VP]S 
-
+[KON(2) KON(12)]S  
+-> [[KON(1)]NP KON(12)]S    
+-> [[[Hans]EN]NP KON(12)]S  
+-> [[[Hans]EN]NP [KON(3) KON(6) KON(11)]VP]S   
+-> [[[Hans]EN]NP [[legt]V KON(6) KON(11)]VP]S  
+-> [[[Hans]EN]NP [[legt]V [KON(4) KON(5)]NP KON(11)]VP]S  
+-> [[[Hans]EN]NP [[legt]V [[das]D KON(5)]NP KON(11)]VP]S  
+-> [[[Hans]EN]NP [[legt]V [[das]D [Buch]N]NP KON(11)]VP]S  
+-> [[[Hans]EN]NP [[legt]V [[das]D [Buch]N]NP [KON(7) KON(10)]PP]VP]S  
+-> [[[Hans]EN]NP [[legt]V [[das]D [Buch]N]NP [[auf]P KON(10)]PP]VP]S  
+-> [[[Hans]EN]NP [[legt]V [[das]D [Buch]N]NP [[auf]P [KON(8) KON(9)]NP]PP]VP]S   
+-> [[[Hans]EN]NP [[legt]V [[das]D [Buch]N]NP [[auf]P [[den]D KON(9)]NP]PP]VP]S  
 -> [[[Hans]EN]NP [[legt]V [[das]D [Buch]N]NP [[auf]P [[den]D [Tisch]N]NP]PP]VP]S 

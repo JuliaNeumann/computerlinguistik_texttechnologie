@@ -17,7 +17,7 @@ The critical rationalism is one of Karl Popper (picture) justified philosophical
 Critical rationalism is a philosophical mindset founded by Karl Popper (picture). Popper describes it as a way of life, "which admits that I can be wrong, that you can be right and that together we may come to the truth". Critical rationalism takes over the common sense, in common sense, that the world really exists, and that it is independent of human cognition. This means, for example, that it does not cease to exist when you close your eyes. Man, however, is limited in his cognitive capacity of this world by his perception, so that he can not obtain definitive certainty that his experiences and opinions coincide with actual reality
 
 ### FAZIT
--> Syntax von goole translate viel besser
+-> Syntax von goole translate viel besser  
 -> auch Redewendung korrekt nicht-wörtlich übersetzt bei google translate
 
 ## TEXT 2
@@ -68,5 +68,5 @@ goes through the limbs tense silence -
 and stop being in the heart.
 
 ### FAZIT
--> Syntax hier auch bei Google schlechter (aber trotzdem besser als bei worldlingo)
-- deutsche Begriffe bei worldlingo
+-> Syntax hier auch bei Google schlechter (aber trotzdem besser als bei worldlingo)  
+-> deutsche Begriffe bei worldlingo
