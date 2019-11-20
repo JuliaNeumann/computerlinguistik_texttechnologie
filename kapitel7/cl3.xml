@@ -1,14 +1,14 @@
-<html ID="1" ANFANG="0" ENDE="206">
-  <head />
-  <title />
-  <meta />
-  <meta />
-  <body />
-  <h1 />
-  <p />
-  <b />
-  <p />
-  <p />
-  <p />
-  <i />
+<html ID="1" ANFANG="0" ENDE="211">
+  <head ID="2" ABH-VON="1" ANFANG="0" LAENGE="25" />
+  <title ID="3" ABH-VON="2" ANFANG="0" LAENGE="25" TEXT="Zeitungsmeldung Nr. sz27"/>
+  <meta ID="4" NAME="keywords" CONTENT="HTML, HEADER" ABH-VON="2" ANFANG="25" LAENGE="0"/>
+  <meta ID="5" HTTP-EQUIV="content-type" CONTENT="text/html; charset=UTF-8" ABH-VON="2" ANFANG="25" LAENGE="0"/>
+  <body ID="6" ABH-VON="1" ANFANG="26" LAENGE="185" />
+  <h1 ID="7" ABH-VON="6" ANFANG="26" LAENGE="34" TEXT="Merkels Reise verärgert Steinmeier" />
+  <p ID="8" ABH-VON="6" ANFANG="61" LAENGE="11" TEXT="[9], dpa"/>
+  <b ID="9" ABH-VON="8" ANFANG="61" LAENGE="6" TEXT="Kundus"/>
+  <p ID="10" ABH-VON="6" ANFANG="73" LAENGE="55" TEXT="Außenminister Frank-Walter Steinmeier ... sagte Merkel." />
+  <p ID="11" ABH-VON="6" ANFANG="129" LAENGE="28" TEXT="Weiteres auf Seiten 4 und 5." />
+  <p ID="12" ABH-VON="6" ANFANG="158" LAENGE="53" TEXT="(Quelle: [13] vom 07.04.2009, Seite 1)" />
+  <i ID="13" ABH-VON="12" ANFANG="167" LAENGE="19" TEXT="Süddeutsche Zeitung"/>
 </html>

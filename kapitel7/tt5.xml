@@ -1,0 +1,22 @@
+<TEI>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Zeitungsmeldung Nr. sz27</title>
+      </titleStmt>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <front>
+        <head>Merkels Reise verärgert Steinmeier</head>
+        <p>Kundus, dpa</p>
+      </front>
+      <p>Außenminister Frank-Walter Steinmeier ... sagte Merkel.</p>
+      <back>
+        <p>Weiteres auf Seiten 4 und 5.</p>
+        <publicationStmt>(Quelle: <sourceDesc>Süddeutsche Zeitung</sourceDesc> vom 07.04.2009, Seite 1)</publicationStmt>
+      </back>
+    </body>
+  </text>
+</TEI>
